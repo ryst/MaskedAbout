@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = MaskedAboutPrefs;
+	cell = PSLinkCell;
+	detail = MaskedAboutPrefsListController;
+	icon = MaskedAboutPrefs.png;
+	isController = 1;
+	label = "Masked About";
+    };
+}

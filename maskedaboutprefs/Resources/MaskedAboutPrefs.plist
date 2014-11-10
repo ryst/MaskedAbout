@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The strings configured below will be displayed in place of the original strings.
+The original string will be displayed if the configured string is blank.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General > About</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-network</string>
+			<key>label</key>
+			<string>Network</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-songs</string>
+			<key>label</key>
+			<string>Songs</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-videos</string>
+			<key>label</key>
+			<string>Videos</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-photos</string>
+			<key>label</key>
+			<string>Photos</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-applications</string>
+			<key>label</key>
+			<string>Applications</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-capacity</string>
+			<key>label</key>
+			<string>Capacity</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-available</string>
+			<key>label</key>
+			<string>Available</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-productversion</string>
+			<key>label</key>
+			<string>Version</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-carrierversion</string>
+			<key>label</key>
+			<string>Carrier</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-productmodel</string>
+			<key>label</key>
+			<string>Model</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-serialnumber</string>
+			<key>label</key>
+			<string>Serial Number</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-macaddress</string>
+			<key>label</key>
+			<string>Wi-Fi Address</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-btmacaddress</string>
+			<key>label</key>
+			<string>Bluetooth</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-modemimei</string>
+			<key>label</key>
+			<string>IMEI</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-iccid</string>
+			<key>label</key>
+			<string>ICCID</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>about-modemversion</string>
+			<key>label</key>
+			<string>Modem Firmware</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General > Usage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>usage-storageavailable</string>
+			<key>label</key>
+			<string>Storage available</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>RightAlignEditableTableCell</string>
+			<key>defaults</key>
+			<string>com.ryst.maskedabout</string>
+			<key>key</key>
+			<string>usage-storageused</string>
+			<key>label</key>
+			<string>Storage used</string>
+			<key>placeholder</key>
+			<string>&lt;original string&gt;</string>
+			<key>PostNotification</key>
+			<string>com.ryst.maskedabout.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you like this tweak, please consider making a donation. Thanks!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate</string>
+			<key>action</key>
+			<string>donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Masked About</string>
+</dict>
+</plist>

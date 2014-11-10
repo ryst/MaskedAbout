@@ -1,0 +1,9 @@
+Package: com.ryst.maskedabout
+Name: Masked About
+Depends: mobilesubstrate, preferenceloader
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Override strings displayed in General > About and General > Usage.
+Maintainer: ryst
+Author: ryst
+Section: Tweaks
