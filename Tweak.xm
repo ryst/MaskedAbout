@@ -10,8 +10,21 @@
 #define kCFCoreFoundationVersionNumber_iOS_8_1 1141.14
 #endif
 
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_2
+#define kCFCoreFoundationVersionNumber_iOS_8_2 1142.16
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_3
+#define kCFCoreFoundationVersionNumber_iOS_8_3 1144.17
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_4
+#define kCFCoreFoundationVersionNumber_iOS_8_4 1145.15
+#endif
+
 #define isiOS7 kCFCoreFoundationVersionNumber >= 847.20
 #define isiOS8 kCFCoreFoundationVersionNumber >= 1140.10
+#define isiOS8_4 kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_8_4
 
 static bool hookedUsageSettings = NO;
 static bool enabled = NO;
@@ -155,6 +168,18 @@ static NSString* getOverrideString(NSString* key) {
 %end
 %end // group HookUsageController
 
+%group HookUsageStorageController // for iOS8.4
+%hook UsageStorageController
++(id)systemSizeUsed:(id)arg1 {
+	return getOverrideString(@"usage-storageused") ?: %orig;
+}
+
++(id)systemSizeAvailable:(id)arg1 {
+	return getOverrideString(@"usage-storageavailable") ?: %orig;
+}
+%end
+%end // group HookUsageStorageController
+
 %group HookAboutDataSource // for iOS8
 %hook AboutDataSource
 -(id)_photos:(id)photos {
@@ -233,6 +258,9 @@ static NSString* getOverrideString(NSString* key) {
 	if (!hookedUsageSettings && [%c(UsageStorageMonitor) class] != nil) {
 		if (isiOS8) {
 			%init(HookUsageController);
+			if (isiOS8_4) {
+				%init(HookUsageStorageController);
+			}
 		} else {
 			%init(HookUsageTotalUsedHeader);
 		}
